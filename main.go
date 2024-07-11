@@ -11,3 +11,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	fmt.Fprintln(w, "Welcome to the Go API Server!")
 }
+
+func aboutHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintln(w, "This is the About page.")
+}
